@@ -1,0 +1,84 @@
+PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/1b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at KingstonCompiling Q1.txl ... 
+Parsing MakeCgrammar/1b_input.c ...Transforming ...int main ()
+{    printf ("Hey! How is it going?\n");
+    return 0;
+}PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/2b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/2b_input.c ...
+[MakeCgrammar/2b_input.c, Q1.txl] : TXL0192E line 5 of MakeCgrammar/2b_input.c - Syntax error at or near:
+        ; char z [ 10 >>> ] <<< ; return 0 ; }
+PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/3b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/3b_input.c ...
+[MakeCgrammar/3b_input.c, Q1.txl] : TXL0192E line 3 of MakeCgrammar/3b_input.c - Syntax error at or near:
+        { char k [ 5 >>> ] <<< , l [ 10 ]
+PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/4b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/4b_input.c ...
+Transforming ...
+int main ()
+{
+    const int i = 1;
+    const int j = 2;
+    const int k = 3;
+    const char c = 'a';
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/5b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/5b_input.c ...
+Transforming ...
+int main ()
+{
+    unsigned int a;
+    unsigned int b;
+    signed int v;
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/6b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/6b_input.c ...
+Transforming ...
+int main ()
+{
+    int h;
+    float b;
+    h = 452452;
+    b = 411.447;
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/7b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/7b_input.c ...
+Transforming ...
+int main ()
+{
+    int dff, gd;
+    dff = 5;
+    gd = 6;
+    dff = gd + dff;
+    gd = dff - gd;
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/8b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/8b_input.c ...
+Transforming ...
+int main ()
+{
+    int e;
+    scanf ("%d", &e);
+    int k = e
+        * 4;
+    printf ("Value of k is: %d", k);
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials>  
