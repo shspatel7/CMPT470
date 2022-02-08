@@ -185,10 +185,7 @@ define c_function_body_statement_for
 end define
 
 define c_function_body_loop_increment
-    [increment]
-    | [increment]; [NL]
-    | [id] [operators]
-    | [id] [operators]; [NL]
+    [id] [SPOFF] ++ [SPON]
 end define
 
 define c_function_body_statement_loop_body
