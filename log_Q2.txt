@@ -1,20 +1,31 @@
-PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/1b_input.c
-TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at KingstonCompiling Q1.txl ... 
-Parsing MakeCgrammar/1b_input.c ...Transforming ...int main ()
-{    printf ("Hey! How is it going?\n");
-    return 0;
-}PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/2b_input.c
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/1b__input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ... 
+Parsing MakeCgrammar/1b__input.c ...
+[MakeCgrammar/1b__input.c, Q1.txl] : TXL0152E - Unable to open source file 'MakeCgrammar/1b__input.c'
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/1b_input.c 
 TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
 Compiling Q1.txl ...
+Parsing MakeCgrammar/1b_input.c ...
+Transforming ...
+int main ()
+{
+    printf ("Hey! How is it going?\n");
+    return 0;
+}
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/2b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ... 
 Parsing MakeCgrammar/2b_input.c ...
 [MakeCgrammar/2b_input.c, Q1.txl] : TXL0192E line 5 of MakeCgrammar/2b_input.c - Syntax error at or near:
         ; char z [ 10 >>> ] <<< ; return 0 ; }
-PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/3b_input.c
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/3b_input.c
 TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
 Compiling Q1.txl ...
 Parsing MakeCgrammar/3b_input.c ...
 [MakeCgrammar/3b_input.c, Q1.txl] : TXL0192E line 3 of MakeCgrammar/3b_input.c - Syntax error at or near:
         { char k [ 5 >>> ] <<< , l [ 10 ]
+
 PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials> txl Q1.txl MakeCgrammar/4b_input.c
 TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
 Compiling Q1.txl ...
@@ -81,4 +92,193 @@ int main ()
     printf ("Value of k is: %d", k);
     return 0;
 }
-PS C:\Users\Administrator\Downloads\Assign-1-Materials-1\Assign-1-Materials>  
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/9b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/9b_input.c ...
+Transforming ...
+int main ()
+{
+    int age;
+    char eligible;
+    scanf ("%d", &age);
+    if (age > 18)
+        eligible = 'y';
+    return 0;
+}
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/10b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/10b_input.c ...
+Transforming ...
+int main ()
+{
+    int age;
+    char eligible;
+    scanf ("%d", &age);
+    if (age > 18)
+        eligible = 'y';
+    else
+        eligible = 'n';
+    return 0;
+}
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/11b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/11b_input.c ...
+Transforming ...
+int main ()
+{
+    int age;
+    char eligible;
+    scanf ("%d", &age);
+    if (age > 18)
+    {
+        eligible = 'y';
+        printf ("you are eligible");
+    }
+    else
+    {
+        eligible = 'n';
+        printf ("you are not eligible");
+    }
+    return 0;
+}
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/12b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/12b_input.c ...
+Transforming ...
+int main ()
+{
+    int x;
+    int y scanf ("%d", &x);
+    scanf ("%d", &y);
+    if (x > y)
+    {
+        printf ("x is greater than y");
+    }
+    if (x < y)
+    {
+        printf ("x is less than y");
+    }
+    else
+    {
+        printf ("x is equal to y");
+    }
+    return 0;
+}
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/13b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/13b_input.c ...
+Transforming ...
+int main ()
+{
+    char car;
+    printf ("Which is your favaourite car:\n");
+    printf ("a) BMW\n");
+    printf ("b) Audi\n");
+    printf ("c) Mercedes\n");
+    scanf ("%c", &car);
+    switch (car)
+    {
+        case 'a' :
+            printf ("You like BMW\n");
+            break;
+        case 'b' :
+            printf ("You like Audi\n");
+            break;
+        case 'c' :
+            printf ("You like Mercedes\n");
+            break;
+        default :
+            printf ("You entered an invalid choice\n");
+    }
+    return 0;
+}
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/14b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/14b_input.c ...
+[MakeCgrammar/14b_input.c, Q1.txl] : TXL0192E line 7 of MakeCgrammar/14b_input.c - Syntax error at or near:
+        inputs <= 24 ; inputs >>> + <<< + ) printf ( ">:::::::>\n" 
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/15b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ... 
+Parsing MakeCgrammar/15b_input.c ...
+Transforming ...
+int main ()
+{
+    int i, j, times;
+    scanf ("%d", &times);
+    i = 0;
+    while (i <= times)
+    {
+        i++;
+        for (j = 0; j < 100; j++)
+        {
+            printf ("%d\n", i);
+        }
+    }
+    return 0;
+}
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/16b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/16b_input.c ...
+Transforming ...
+int main ()
+{
+    int i, j, times;
+    scanf ("%d", &times);
+    i = 0;
+    do
+    {
+        i++;
+        for (j = 0; j < 100; j++)
+        {
+            printf ("%d\n", i);
+        }
+    } while (i <= times);
+    return 0;
+}
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/17b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/17b_input.c ...
+Transforming ...
+int main ()
+{
+    int i;
+    scanf ("%d", i);
+    while (i <= 500)
+    {
+        if (i == 450)
+        {
+            break;
+        }
+    }
+    return 0;
+}
+PS C:\Users\shspa\Downloads\CMPT 470\CMPT470> txl Q1.txl MakeCgrammar/18b_input.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q1.txl ...
+Parsing MakeCgrammar/18b_input.c ...
+Transforming ...
+#include<stdio.h>
+
+int main ()
+{
+    int i;
+    scanf ("%d", i);
+    while (i <= 500)
+    {
+        if (i == 450)
+        {
+            printf ("Hellooooooo!\n");
+            continue;
+        }
+    }
+    return 0;
+}

@@ -65,6 +65,7 @@ define c_function_body_statement
     [c_function_body_statement_if]
     | [c_function_body_statement_else]
     | [c_function_body_statement_while]
+    | [c_function_body_statement_do_while]
     | [c_function_body_statement_for]
     | [c_function_body_statement_switch]
     | [c_function_body_statement_return]
@@ -185,7 +186,10 @@ define c_function_body_statement_for
 end define
 
 define c_function_body_loop_increment
-    [id] [SPOFF] ++ [SPON]
+    [increment]
+    | [increment]; [NL]
+    | [id] [operators]
+    | [id] [operators]; [NL]
 end define
 
 define c_function_body_statement_loop_body
@@ -258,4 +262,4 @@ end define
 function main
     match [program]
         P[program]
-end function   
+end function
