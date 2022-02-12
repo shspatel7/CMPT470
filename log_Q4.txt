@@ -1,0 +1,119 @@
+PS C:\Users\Administrator\Downloads\CMPT470> txl Q2.txl MiniCgrammar/StartingInput_b.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q2.txl ... 
+Parsing MiniCgrammar/StartingInput_b.c ...
+Transforming ...
+int main ()
+{
+    int x;
+    char y;
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\CMPT470> txl Q2.txl MiniCgrammar/input_1b.c 
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q2.txl ...
+Parsing MiniCgrammar/input_1b.c ...
+Transforming ...
+int main ()
+{
+    int i, j, mark;
+    char pass;
+    for (i = 1; i <= 24; i++)
+    {
+        if (i < 10)
+        {
+            printf ("H\n");
+        }
+    }
+    scanf ("%d", &mark);
+    if (mark > 40)
+    {
+        if (mark > 90)
+        {
+            printf ("You are really smart!");
+        }
+        pass = 'y';
+        printf ("You passed");
+    }
+    else
+    {
+        for (i = 0; i < 3; i++)
+        {
+            printf ("FAILure!");
+        }
+        pass = 'n';
+        printf ("You failed");
+    }
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\CMPT470> txl Q2.txl MiniCgrammar/input_2b.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q2.txl ...
+Parsing MiniCgrammar/input_2b.c ...
+Transforming ...
+int main ()
+{
+    int i, j;
+    for (i = 1; i <= 24; i++)
+    {
+        while (j <= 2)
+        {
+            j++;
+            printf ("%d\n", i);
+        }
+    }
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\CMPT470> txl Q2.txl MiniCgrammar/input_3b.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q2.txl ...
+Parsing MiniCgrammar/input_3b.c ...
+Transforming ...
+int main ()
+{
+    int i, j;
+    for (i = 1; i <= 24; i++)
+    {
+        for (j = i; j < 24; j++)
+        {
+            printf ("%d", i);
+        }
+    }
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\CMPT470> txl Q2.txl MiniCgrammar/input_4b.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q2.txl ...
+Parsing MiniCgrammar/input_4b.c ...
+Transforming ...
+#include<stdio.h>
+
+int main ()
+{
+    int i, times;
+    scanf ("%d", &times);
+    i = 0;
+    j = 0;
+    while (i <= times)
+    {
+        while (j <= times)
+        {
+            printf ("%j\n", j);
+            j++;
+        }
+        if (i > 2)
+        {
+            printf ("%d\n", i);
+        }
+        i ++;
+    }
+    return 0;
+}
+PS C:\Users\Administrator\Downloads\CMPT470> txl Q2.txl MiniCgrammar/input_5b.c
+TXL v10.8a (8.6.21) (c) 1988-2021 Queen's University at Kingston
+Compiling Q2.txl ...
+Parsing MiniCgrammar/input_5b.c ...
+[MiniCgrammar/input_5b.c, Q2.txl] : TXL0127E input file 'MiniCgrammar/input_5b.c' - Parse time limit (26600000 cycles) exceeded
+[MiniCgrammar/input_5b.c, Q2.txl] : TXL0192E line 24 of MiniCgrammar/input_5b.c - Syntax error at or near:
+        = 5 ; b = >>> a + <<< 3 ; a = a
+PS C:\Users\Administrator\Downloads\CMPT470>
