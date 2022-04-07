@@ -4,14 +4,6 @@ public class MoreSizeAlgorithm extends Algorithm {
     public MoreSizeAlgorithm(int n) {
         super(n);
     }
-
-	public int runAlgorithm (int key, int target) {
-		int index=-1;
-		sort();
-		insert(key);
-		index = search(target);
-		return index;
-	}
     
     public void sort(){
         sort(myData, size);

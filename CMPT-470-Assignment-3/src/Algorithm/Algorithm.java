@@ -17,7 +17,15 @@ public abstract class Algorithm {
 		}
 	}
 
-	public abstract int runAlgorithm (int key, int target);
+	public final int runAlgorithm (int key, int target) {
+		int index=-1;
+		if (!isSorted()){
+			sort();
+		}
+		insert(key);
+		index = search(target);
+		return index;
+	}
 
 	public abstract void sort();
 
@@ -37,6 +45,15 @@ public abstract class Algorithm {
 	}
 
 	public abstract int search(int target);
+
+	public final boolean isSorted(){
+		for (int i=1; i<size; i++){
+			if (myData[i]<myData[i-1]){
+				return false;
+			}
+		}
+		return true;
+	}
 
 	public final String toString()
 	{
