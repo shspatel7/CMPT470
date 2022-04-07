@@ -49,7 +49,7 @@ public class MoreSizeAlgorithm extends Algorithm {
 		}
 	}
 
-    public int search( int[] sortedArray, int key, int low, int high) {
+    private int search( int[] sortedArray, int key, int low, int high) {
 		int index = -1;
 
 		while (low <= high) {
