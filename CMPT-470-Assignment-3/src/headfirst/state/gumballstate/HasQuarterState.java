@@ -1,7 +1,5 @@
 package headfirst.state.gumballstate;
 
-import java.util.Random;
-
 public class HasQuarterState implements State {
 	GumballMachine gumballMachine;
  
@@ -26,6 +24,10 @@ public class HasQuarterState implements State {
     public void dispense() {
         System.out.println("No gumball dispensed");
     }
+
+	public void refill() {
+		// do nothing
+	}
  
 	public String toString() {
 		return "waiting for turn of crank";

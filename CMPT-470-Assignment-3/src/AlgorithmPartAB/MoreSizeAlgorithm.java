@@ -1,4 +1,4 @@
-package Algorithm;
+package AlgorithmPartAB;
 
 public class MoreSizeAlgorithm extends Algorithm {
     public MoreSizeAlgorithm(int n) {

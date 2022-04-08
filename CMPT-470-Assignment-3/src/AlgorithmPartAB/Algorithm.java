@@ -1,4 +1,4 @@
-package Algorithm;
+package AlgorithmPartAB;
 import java.util.Random;
 
 public abstract class Algorithm {

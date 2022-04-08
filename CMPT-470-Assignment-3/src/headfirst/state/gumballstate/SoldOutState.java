@@ -22,6 +22,10 @@ public class SoldOutState implements State {
 	public void dispense() {
 		System.out.println("No gumball dispensed");
 	}
+
+	public void refill() {
+		// do nothing
+	}
  
 	public String toString() {
 		return "sold out";
