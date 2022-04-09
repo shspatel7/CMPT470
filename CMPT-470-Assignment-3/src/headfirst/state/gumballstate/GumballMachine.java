@@ -8,7 +8,7 @@ public class GumballMachine {
 	State soldState;
 	State maintenanceState;
  
-	State state = soldOutState;
+	State state;
 	int count = 0;
  
 	public GumballMachine(int numberGumballs) {
@@ -20,7 +20,7 @@ public class GumballMachine {
 
 		this.count = numberGumballs;
  		if (numberGumballs > 0) {
-			state = noQuarterState;
+			state = maintenanceState;
 		} else{ 
 			state=soldOutState; 	//Change here
 		}

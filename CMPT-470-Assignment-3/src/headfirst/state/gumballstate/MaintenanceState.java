@@ -29,9 +29,11 @@ public class MaintenanceState implements State {
                 gumballMachine.releaseBall();
             }
             System.out.println("All gumballs are now dispensed");
+            refill();
         }
         else {
             System.out.println("No gumballs to dispense");
+            gumballMachine.setState(gumballMachine.getSoldOutState());
         }            
     }
 
@@ -44,6 +46,11 @@ public class MaintenanceState implements State {
         else {
             System.out.println("No gumballs to refill");
         }
-    }  
+        gumballMachine.setState(gumballMachine.getNoQuarterState());
+    }
+
+    public String toString() {
+        return "is in maintenance state.";
+    }
 
 }
