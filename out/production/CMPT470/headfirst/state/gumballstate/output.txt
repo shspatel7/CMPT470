@@ -1,0 +1,38 @@
+C:\Users\Admin\.jdks\openjdk-14.0.1\bin\java.exe -javaagent:C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.7172.25\lib\idea_rt.jar=60785:C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.7172.25\bin -Dfile.encoding=UTF-8 -classpath C:\Users\Admin\Downloads\CMPT470\out\production\CMPT470 headfirst.state.gumballstate.GumballMachineTestDrive
+
+Mighty Gumball, Inc.
+Java-enabled Standing Gumball Model #2004
+Inventory: 5 gumballs
+Machine is is in maintenance state.
+
+Please wait, we're already giving you a gumball
+Turning twice doesn't get you another gumball!
+Now dispensing the gumballs.......
+A gumball comes rolling out the slot...
+A gumball comes rolling out the slot...
+A gumball comes rolling out the slot...
+A gumball comes rolling out the slot...
+A gumball comes rolling out the slot...
+All gumballs are now dispensed
+Refilling gumballs.......
+Refilled 5 gumballs.
+
+Mighty Gumball, Inc.
+Java-enabled Standing Gumball Model #2004
+Inventory: 5 gumballs
+Machine is waiting for quarter
+
+You inserted a quarter
+You turned...
+A gumball comes rolling out the slot...
+You inserted a quarter
+You turned...
+A gumball comes rolling out the slot...
+
+Mighty Gumball, Inc.
+Java-enabled Standing Gumball Model #2004
+Inventory: 3 gumballs
+Machine is waiting for quarter
+
+
+Process finished with exit code 0

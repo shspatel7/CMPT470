@@ -1,0 +1,7 @@
+C:\Users\Admin\.jdks\openjdk-14.0.1\bin\java.exe -javaagent:C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.7172.25\lib\idea_rt.jar=64831:C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.7172.25\bin -Dfile.encoding=UTF-8 -classpath C:\Users\Admin\Downloads\CMPT470\out\production\CMPT470 bakery.Main
+   10  Chocolate cake
+   10  Vanilla cake
+   12  Vanilla cake with 1 sprinkles
+   29  Multi-layered Strawberry Cake with 2 sprinkles
+
+Process finished with exit code 0
