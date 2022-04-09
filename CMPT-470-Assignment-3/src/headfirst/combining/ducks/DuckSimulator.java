@@ -18,6 +18,21 @@ public class DuckSimulator {
 		simulate(redheadDuck);
 		simulate(duckCall);
 		simulate(rubberDuck);
+
+		System.out.println("\nThe duck simulator with Observer.");
+		ObserverSimulator observerSimulator = new ObserverSimulator();
+		Observable observable1 = new Observable(mallardDuck);
+		observable1.registerObserver(observerSimulator);
+		observable1.notifyObservers();
+		Observable observable2 = new Observable(redheadDuck);
+		observable2.registerObserver(observerSimulator);
+		observable2.notifyObservers();
+		Observable observable3 = new Observable(duckCall);
+		observable3.registerObserver(observerSimulator);
+		observable3.notifyObservers();
+		Observable observable4 = new Observable(rubberDuck);
+		observable4.registerObserver(observerSimulator);
+		observable4.notifyObservers();
 	}
    
 	void simulate(Quackable duck) {
